@@ -10,3 +10,6 @@ def test(request):
 def second(request):
     return HttpResponse("test page 2")
 
+def third(request):
+    return HttpResponse("this third test page")
+

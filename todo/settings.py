@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'main',
     'test',
      'test2',
+     'test3',
     
 ]
 
