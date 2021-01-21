@@ -1,4 +1,4 @@
-"""mysite URL Configuration
+"""TODO URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from main.views import homepage, test, page
+from main.views import homepage, test, test2, page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path ('', homepage, name = 'home' ),
     path ('/test', test, name = 'test'),
+    path ('/test2', second),
     
